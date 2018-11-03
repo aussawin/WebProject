@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #thirty-years {
     width: 100vw;
     height: 80vh;
