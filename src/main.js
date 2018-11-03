@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
+import VModal from 'vue-js-modal'
 
+Vue.use(VModal, { dynamic: true})
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false
 
