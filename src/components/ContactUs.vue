@@ -115,7 +115,7 @@
   #contact-us {
     width: 100vw;
     height: 65vh;
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
     padding-left: 15vw;
     padding-right: 15vw;
