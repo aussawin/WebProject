@@ -89,7 +89,7 @@
 <style scoped>
   #contact-us {
     width: 100vw;
-    height: 80vh;
+    height: 65vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 15vw;
