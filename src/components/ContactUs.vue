@@ -114,7 +114,7 @@
 <style scoped>
   #contact-us {
     width: 100vw;
-    height: 65vh;
+    height: 70vh;
     padding-top: 5vh;
     padding-bottom: 10vh;
     padding-left: 15vw;
