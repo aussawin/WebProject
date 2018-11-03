@@ -46,22 +46,22 @@
         <b-container fluid>
           <b-row class="my-1">
             <b-col sm="12">
-              <b-form-input id="input-small" size="sm" type="text" placeholder="Your Name (required)"></b-form-input>
+              <b-form-input id="input-small" size="sm" type="text" placeholder="Your Name (required)" v-model="form.name"></b-form-input>
             </b-col>
           </b-row>
           <b-row class="my-1">
             <b-col sm="12">
-              <b-form-input id="input-small" size="sm" type="text" placeholder="Your Email (required)"></b-form-input>
+              <b-form-input id="input-small" size="sm" type="text" placeholder="Your Email (required)" v-model="form.email"></b-form-input>
             </b-col>
           </b-row>
           <b-row class="my-1">
             <b-col sm="12">
-              <b-form-input id="input-small" size="sm" type="text" placeholder="Subject"></b-form-input>
+              <b-form-input id="input-small" size="sm" type="text" placeholder="Subject" v-model="form.subject"></b-form-input>
             </b-col>
           </b-row>
           <b-row class="my-1">
             <b-col sm="12">
-              <b-form-textarea id="textarea1" v-model="text" placeholder="Your Message" :rows="5" :max-rows="6">
+              <b-form-textarea id="textarea" placeholder="Your Message" :rows="5" :max-rows="6" v-model="form.message">
               </b-form-textarea>
             </b-col>
           </b-row>
@@ -70,7 +70,7 @@
               <h1>Capcha</h1>
             </b-col>
             <b-col sm="8">
-              <b-button id="submit-btn">Submit</b-button>
+              <b-button :class="{disabled: btnState}" id="submit-btn" @click="submit">Submit</b-button>
             </b-col>
           </b-row>
         </b-container>
@@ -82,6 +82,31 @@
 <script>
   export default {
     name: "ContactUs",
+    data() {
+        return {
+            state: null,
+            form: {
+                name: '',
+                email: '',
+                subject: '',
+                message: '',
+            },
+        }
+    },
+    methods: {
+        submit: function() {
+
+        },
+    },
+    computed: {
+        btnState: function() {
+            if (this.form.name.length == 0 || this.form.email.length == 0) {
+                return true
+            }
+            
+            return false
+        },
+    }
   }
 
 </script>
