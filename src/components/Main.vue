@@ -3,7 +3,7 @@
         <navbar></navbar>
         <carousel></carousel>
         <thirty-years></thirty-years>
-        <video></video>
+        <video-page></video-page>
         <award></award>
         <contact-us></contact-us>
     </div>
@@ -22,7 +22,7 @@ export default {
   components: {
     "carousel": Carousel,
     "thirty-years" : ThirtyYears,
-    "video" : Video,
+    "video-page" : Video,
     "navbar": NavBar,
     "award": Award,
     "contact-us": ContactUs,
