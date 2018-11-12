@@ -120,14 +120,14 @@
 
   .bsi-award2 {
     grid-area: award3;
-    background-image: url("../assets/Image/7_Award/Photo02.png");
+    background-image: url("../assets/Image/7_Award/Photo03.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .ilac-award {
     grid-area: award4;
-    background-image: url("../assets/Image/7_Award/Photo03.png");
+    background-image: url("../assets/Image/7_Award/Photo04.png");
     background-size: cover;
     background-repeat: no-repeat;
   }

@@ -2,14 +2,14 @@
     <div id = "thirty-years">
         <div class="grid-container">
             <div class="area1">
-                <div class="wrapper">
+                <div class="wrapper1">
                     <div class="item1">
                         <img src="../assets/Image/2_30years/logo-30.png">
                     </div>
                 </div>
             </div>
-            <div class="area2 ">
-                <center><h1><b>OF CONSTANT</b></h1></center>
+            <div class="area2">
+                <h1>THE CONSTANT</h1>
             </div>
         </div>
     </div>
@@ -31,7 +31,9 @@ export default {
 }
 .grid-container {
   display: grid;
-  grid-template-areas: 'area1 area2';
+  grid-template-areas: 
+    "area1 area2"
+    "area1 area2";
   height: 100%;
   width: 80%;
 }
@@ -41,7 +43,7 @@ export default {
     margin: auto;
 }
 
-.wrapper {
+.wrapper1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 20vh;
