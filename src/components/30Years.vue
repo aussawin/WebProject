@@ -1,18 +1,5 @@
 <template>
-    <div id = "thirty-years">
-        <div class="grid-container">
-            <div class="area1">
-                <div class="wrapper1">
-                    <div class="item1">
-                        <img src="../assets/Image/2_30years/logo-30.png">
-                    </div>
-                </div>
-            </div>
-            <div class="area2">
-                <h1>THE CONSTANT</h1>
-            </div>
-        </div>
-    </div>
+    <div id = "thirty-years"></div>
 </template>
 
 <script>    
@@ -24,8 +11,8 @@ export default {
 <style scoped>
 #thirty-years {
     width: 100vw;
-    height: 80vh;
-    background-image: url("../assets/Image/2_30years/BG.png");
+    height: 90vh;
+    background-image: url("../assets/Image/2_30years/background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
