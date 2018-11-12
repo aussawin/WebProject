@@ -1,19 +1,22 @@
 <template>
   <div id="video-page">
-    <img src="../assets/Image/4_VIDEO/Head.png">
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+    <img src="../assets/Image/4_VIDEO/Head.png"><br><br><br>
+    <center>
+      <iframe width="720" height="360" src="https://www.youtube.com/watch?time_continue=182&v=QlhqGoDDF5c"></iframe>
+    </center>
   </div>
 </template>
 
 
 <style scoped>
  
- #video-page {
+  #video-page {
     width: 100vw;
-    height: 90vh;
-    background-image: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
+    height: 70vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: white;
+  }
 </style>
