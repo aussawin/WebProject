@@ -83,7 +83,7 @@
 <style scoped>
   #award {
     width: 100vw;
-    height: 65vh;
+    height: 70vh;
     padding-top: 5vh;
     padding-bottom: 10vh;
     padding-left: 15vw;
@@ -100,7 +100,7 @@
   }
 
   .grid-container>div {
-    height: 45vh;
+    height: 50vh;
     background-color: white;
   }
 
