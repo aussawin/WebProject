@@ -73,9 +73,8 @@
       },
       ilacAward: function() {
         this.$modal.show("ilac-modal")
-      }
+      },
     },
-    mounted() {}
   }
 
 </script>
